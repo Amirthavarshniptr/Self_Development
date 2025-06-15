@@ -5,6 +5,12 @@ Learn JavaScript
 - console.log() -> more like print
 - document.getElementbyID("id") to get the info in the id
 - document.getElementbyID("id").textContent = or .innertext =
+- in document.getElementbyID("id").inputHTML: we can add the data to be shown with HTML tags
+- Instead of using innerHTML, u can also use     
+const li = document.createElement("li")
+    li.textContent=myLeads[i]
+    ulEl.append(li)
+ where we create the element, assign the content to the element and then append that element to the ul.
 - for assigning - let, for changing the variable, just use the variable without any prefix
 - if(condition){} else if (condition) else...
 - In condition, the equals checker should be "===". "==" is less strict and leaves if it is a string. Say 100 == "100" would be true
@@ -20,3 +26,4 @@ Learn JavaScript
         console.log("Heisann!")
     }}
 - we can call it as player.sayHello()
+- const can be used for constant values which should not be reassigned

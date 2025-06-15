@@ -13,3 +13,9 @@ Learn JavaScript
 - adding to the last -> push (instead of append)
 - pop is same as pop
 - cmd/alt+d -> to write the same thing in several places
+- Methods are added similar to arrays with a let->let player = {
+    name: "Per",
+    sayHello: function() {
+        console.log("Heisann!")
+    }}
+- we can call it as player.sayHello()

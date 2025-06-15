@@ -12,6 +12,7 @@ Learn JavaScript
 - Length of a list -> listname.length
 - adding to the last -> push (instead of append)
 - pop is same as pop
+- shift and unshift are for remove and add elements at the beginning of the array
 - cmd/alt+d -> to write the same thing in several places
 - Methods are added similar to arrays with a let->let player = {
     name: "Per",

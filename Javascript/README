@@ -2,3 +2,14 @@ Learn JavaScript
 
 - Link: https://scrimba.com/learn-javascript-c0v
 - Comment out many lines together: cmd+k+c
+- console.log() -> more like print
+- document.getElementbyID("id") to get the info in the id
+- document.getElementbyID("id").textContent = or .innertext =
+- for assigning - let, for changing the variable, just use the variable without any prefix
+- if(condition){} else if (condition) else...
+- In condition, the equals checker should be "===". "==" is less strict and leaves if it is a string. Say 100 == "100" would be true
+- To specify an id within a querySelector or within css, #id would be used. ".id" could be used as well.
+- Length of a list -> listname.length
+- adding to the last -> push (instead of append)
+- pop is same as pop
+- cmd/alt+d -> to write the same thing in several places

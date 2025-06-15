@@ -1,17 +1,29 @@
-// 1. Grab the save-el paragrah and store it in a variable called saveEl
-let saveEl = document.getElementById("save-el")
-let countEl = document.getElementById("count-el")
-let count = 0
+let num1 = 1
+let num2 = 3
 
-function increment() {
-    count += 1
-    countEl.innerText = count
+document.getElementById("num1-el").textContent=num1
+document.getElementById("num2-el").textContent=num2
+
+function add(){
+    let printnum = num1+num2
+    console.log(printnum)
+    document.getElementById("sum-el").innerText= "Sum: "+ printnum
 }
 
-function save() {
-    let countstr = count + "-"
-    saveEl.textContent += countstr
-    console.log(count)
-    countEl.innerText=0
-    count=0
+function subtract(){
+    let printnum = num1-num2
+    console.log(printnum)
+    document.getElementById("sum-el").innerText= "Sum: "+ printnum
+}
+
+function divide(){
+    let printnum = num1/num2
+    console.log(printnum)
+    document.getElementById("sum-el").innerText= "Sum: "+ printnum
+}
+
+function multiply(){
+    let printnum = num1*num2
+    console.log(printnum)
+    document.getElementById("sum-el").innerText= "Sum: "+ printnum
 }

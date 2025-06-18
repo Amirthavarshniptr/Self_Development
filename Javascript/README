@@ -27,3 +27,4 @@ const li = document.createElement("li")
     }}
 - we can call it as player.sayHello()
 - const can be used for constant values which should not be reassigned
+- Multiline text: `. Single line text: ""

@@ -1,0 +1,10 @@
+REACT notes (https://www.youtube.com/watch?v=SqcY0GlETPk&t=29s):
+
+- Browser - Document object model (DOM)
+- Vanilla Javascript - without any tools
+
+- Use components and DOM
+
+- npx create-react-app my-react-app
+- cd my-react-app
+- npm start

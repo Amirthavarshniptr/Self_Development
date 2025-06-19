@@ -1,3 +1,9 @@
-import ReactDOM from "react-dom/client"
+import ReactDom from "react-dom/client"
 
-ReactDOM.createRoot(document.querySelector("#root")).render(<p>Hello from the world of React!</p>)
+ReactDom.createRoot(document.getElementById("root")).render(
+    <ul>
+        <li>Super popular JS library</li>
+        <li>Will help me more enjoyable</li>
+        <li>React has a pretty cool logo</li>
+    </ul>
+)

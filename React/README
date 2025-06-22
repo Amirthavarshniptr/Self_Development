@@ -1,4 +1,7 @@
-REACT notes (https://www.youtube.com/watch?v=SqcY0GlETPk&t=29s):
+REACT notes:
+
+- open source library,not a framework.
+- has component based arch - header, footer,
 
 - Browser - Document object model (DOM)
 - Vanilla Javascript - without any tools
@@ -8,3 +11,7 @@ REACT notes (https://www.youtube.com/watch?v=SqcY0GlETPk&t=29s):
 - npx create-react-app my-react-app
 - cd my-react-app
 - npm start
+
+- If you have a funtional component within a folder - have "export default function-name"
+- Without this we can also give export with the function itself.
+- try using functional components over class components

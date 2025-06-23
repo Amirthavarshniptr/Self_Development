@@ -91,3 +91,40 @@
 - Automatically scale resource deployment, have template and hence remove manual config
 - Monitor health, replace failing resources, performance realtime is automatically alerted
 - Can manage through web portal, CLI, APIs, Powershell
+
+# Cloud Service types
+
+## IaaS
+
+- Most flexible - maximum control
+- Physical - cloud service provider
+- Everything else - consumer - OS installation, config, maintenance, etc.
+
+### Scenarios used
+
+- Lift & shift migration - from on-prem datacenter to IaaS
+- Testing & dev - replicate configs
+
+## PaaS
+
+- Middle ground b/w iaas and saas.
+- Maintenance & physical - cloud service provider
+- network settings, connectivity, etc- depends
+- Data, info and accounts - consumer
+
+### Scenarios used
+
+- Development framework: develop or customize cloud based apps
+- Analytics/ business intel: Datamining, forecasting, etc.
+
+## SaaS
+
+- Renting a fully dev app
+- Easiest deployment
+- except info, data, accounts, etc., everything is by cloud provider
+
+### Scenarios used
+
+- Email and messaging.
+- Business productivity applications.
+- Finance and expense tracking.

@@ -1,0 +1,93 @@
+# AZ900
+
+## Cloud computing:
+
+- Computing services over internet
+- VM, storage, dbs, networking, IOT, ML & AI
+- No need to build a new data centre
+- pay for just the services we use.
+
+### Compute power - as we need it
+
+## Shared responsibility model
+
+- Correct version, IT dept - infra running
+- Consumer - responsible for data, access
+- Cloud sql database - responsible, cloud provider
+- But data in the database - consumer responsibility
+- On-premise datacentre - responsible for everything
+
+## Cloud service types
+
+- IAAS - Infrastructure as a Service - most responsibility on constomer
+- PaaS - Platform as a Service - evenly distributed
+- SaaS - Software as a Service - most responsibility on provider
+
+## Cloud Models
+
+- Private: natural evolution from a corporate - dedicated datacentre
+- Public: third party cloud provider
+- Hybrid: both in inter-connected environments. which in public and private
+- Multi-cloud: Multiple features from different cloud providers
+
+## Azure Arc
+
+- Set of technologies that help manage cloud env.
+
+## Azure VMWare
+
+- Used to run VMWARE workloads with integration in private cloud
+
+# Consumption - based model
+
+- Capital Expenditure
+- Operational Expenditure
+
+- Cloud pricing models - pay as you go pricing model - manage operating costs.
+
+# Benefits of Cloud
+
+## High Availibility & Scalability
+
+- Uptime (availability) & ability to handle demand (Scale)
+- Uptimes guarentees based on SLAs (Service Level Agreements)
+
+### SLA - for uptime
+
+- Agreement between IT dept and business users
+- Azure SLAs are based on % - credit entitled when there is a downtime
+- Usually SLAs 99% to 99.99%
+- 99% can be upto 1.6 hours per week - which is 7.9 hrs per month
+- 99.9% - just 10 mins per week
+- Depends on the business needs
+
+### Scalability
+
+- Ability to adjust resources when demanded.
+- Vertical Scaling: we can add more CPUs or RAM to VM when we need more processing power (scale up). Or conversely, scale down by reducing specs
+- Horizontal Scaling: steep jump in demand - deployed resources can be scaled out or scaled in. Here scaled in means reducing and scaled out means adding additional VMs or containers.
+
+## Reliability & Predictability
+
+### Reliability
+
+- Recover failures and continue to function
+- Decentralized design - reliable and resilient infrastructure
+
+### Predictability
+
+- Microsoft Azure Well-Architected Framework
+- Performance: Autoscaling, load balancing, and high availability
+- Cost: track resources in real0time. TCO - Total cost of ownership tools or pricing calc to get an estimate of potential cloud spent
+
+## Security & Governance
+
+- Cloud-based auditing - flags resources out of compliance with corporate standards
+- In terms of security - IaaS - maximum control of security to customers - have to do patches & maintenance. PaaS and SaaS - patches & maintenance taken care automatiically.
+- Cloud providers handle things like - Distributed Denial of Service Attacks - making network more robust and secure
+
+## Manageability
+
+- Automatically scale resource deployment, have template and hence remove manual config
+- Monitor health, replace failing resources, performance realtime is automatically alerted
+- Can manage through web portal, CLI, APIs, Powershell
